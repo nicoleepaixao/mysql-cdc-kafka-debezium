@@ -1,15 +1,20 @@
 <div align="center">
   
 ![MySQL CDC](https://img.icons8.com/color/96/mysql-logo.png)
-![Kafka](https://img.icons8.com/color/96/apache-kafka.png)
+![Apache Kafka](https://img.icons8.com/?size=96&id=fOhLNqGJsUbJ&format=png)
 
 ## Complete Change Data Capture Pipeline with Zero Duplicates
 
-**Updated: January 2, 2026**
+**Updated: January 14, 2026**
 
 [![Follow @nicoleepaixao](https://img.shields.io/github/followers/nicoleepaixao?label=Follow&style=social)](https://github.com/nicoleepaixao)
 [![Star this repo](https://img.shields.io/github/stars/nicoleepaixao/mysql-cdc-kafka-debezium?style=social)](https://github.com/nicoleepaixao/mysql-cdc-kafka-debezium)
 [![Medium Article](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://nicoleepaixao.medium.com/replicação-cdc-de-mysql-para-mysql-usando-kafka-debezium-da-frustração-à-solução-de6d2fb2a3eb)
+
+<p align="center">
+  <a href="README-PT.md">🇧🇷</a>
+  <a href="README.md">🇺🇸</a>
+</p>
 
 </div>
 
@@ -55,18 +60,6 @@ Target should have: 3 (backup) + 2 (new) = 5 records total
 - **Operational Confidence**: Automated validation reduces human error
 - **Development Speed**: Local testing enables rapid iteration
 - **Production Readiness**: Validates CDC behavior before production deployment
-
----
-
-## **Architecture**
-
-### **CDC Pipeline Flow**
-
-<p align="center">
-  <img src="img/mysql-cdc-kafka-debezium.png" alt="CDC Architecture" width="800">
-</p>
-
-</div>
 
 ---
 
@@ -1006,6 +999,8 @@ This project is for educational and testing purposes. The Docker Compose setup i
 
 **Happy replicating your data with CDC!**
 
-*Document last updated: January 2, 2026*
+*Document Created: January 2, 2026*
+
+Made with ❤️ by [Nicole Paixão](https://github.com/nicoleepaixao)
 
 </div>
